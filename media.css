@@ -1,0 +1,152 @@
+
+@media(max-width:992px){
+  .navbar{
+    background-color: white;
+  }
+  .nav-item .nav-link{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .logo{
+    color: black !important;
+
+  }
+  .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-nav .nav-item{
+    margin: 8px 0px;
+  }
+  .img-home{
+    width: 350px;
+    margin-right: 0px;
+  }
+  .home-heading{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 74px;
+  }
+  .box-container2{
+    padding-left: 90px;
+  }
+  .img-about{
+    height: 80%;
+    width: 100%;
+    position: static;
+    top: 0;
+    right: 0;
+  }
+  .about-us-container{
+    height: 100vh !important;
+  }
+  .about-us{
+    margin-top: 0px;
+  }
+  .product-category{
+    width: 100%;
+    height: auto;
+  }
+  .heading-product{
+    margin-top: 155px;
+    margin-bottom: 40px;
+  }
+  footer{
+    display: none;
+  }
+}
+
+
+
+@media(max-width:768px){
+  .content-home2{
+    height: auto;
+  }
+  .box-container{
+    display: flex;
+    justify-content: center;
+  }
+  .img-home{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  .about-us{
+    margin-top: 200px;
+    height: 80vh;
+  }
+  .about-us-container{
+    padding-top: 15rem !important;
+    margin-bottom: 350px !important;
+    height: auto;
+  }
+  .home-heading{
+    font-size: 46px;
+    line-height: 82px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .box-container2{
+    padding-left: 0px;
+  }
+  .para-home{
+    text-align: center;
+    max-width: 100%;
+  }
+  .box-container{
+    padding-left: 0px;
+  }
+  .btn-home{
+    text-align: center;
+  }
+  .content-about{
+    padding: 10px 20px;
+  }
+  .img-about{
+    height: 100%;
+  }
+  .heading-product{
+    margin-bottom: 20px;
+  }
+  .img-card{
+    height: 290px !important;
+  }
+}
+
+
+@media(max-width:576px){
+ 
+  .img-home{
+    width: 340px;
+    margin-top: 50px;
+    margin-right: 0px;
+   
+  }
+  
+  .home-heading{
+    font-size: 32px;
+    line-height:52px ;
+  }
+  .about-us-container{
+    padding-top: 6rem !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+  }
+  .heading-product{
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .container-content{
+   height: auto;
+  }
+  .btn-home{
+    margin-left: 25px;
+  }
+  .content-home{
+   
+  }
+
+}
