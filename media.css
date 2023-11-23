@@ -113,6 +113,9 @@
   .img-card{
     height: 290px !important;
   }
+  .container-content{
+    height: auto;
+   }
 }
 
 
@@ -135,6 +138,12 @@
     padding-right: 12px;
     
   }
+  .about-us{
+    margin-top: 0;
+  }
+  .about-us-container{
+    padding-top: 0;
+  }
   .heading-product{
     font-size: 25px;
     margin-top: 0px;
@@ -145,8 +154,8 @@
   .btn-home{
     margin-left: 25px;
   }
-  .content-home{
-   
+  .header{
+    height: 698px;
   }
 
 }
